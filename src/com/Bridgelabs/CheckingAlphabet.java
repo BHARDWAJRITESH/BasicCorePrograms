@@ -6,8 +6,8 @@ public class CheckingAlphabet {
 
 	public static void main(String[] args) {
 		System.out.println("Enter a character: ");
-		Scanner scan = new Scanner(System.in);
 		
+		Scanner scan = new Scanner(System.in);
 		char character = scan.next().charAt(0);
 		
 		if (character =='a' || character =='e' || character =='i' || character =='o' || character =='u' || character ==' ') {
