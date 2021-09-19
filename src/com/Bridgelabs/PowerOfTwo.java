@@ -12,7 +12,7 @@ public class PowerOfTwo {
 		int number =1, i;
 		
 		
-		for ( i =1;  i <= power; i++) {
+		for ( i = 1;  i <= power; i++) {
 			number = number * 2; 
 			System.out.println("2 ^ " + i + " = " + number);
 		}
